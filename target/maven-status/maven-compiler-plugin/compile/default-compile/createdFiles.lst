@@ -1,0 +1,11 @@
+com\example\shellfx\Controller.class
+com\example\shellfx\models\FileManager\State\Impl\DeleteState.class
+com\example\shellfx\models\Folder.class
+com\example\shellfx\models\FileManager\State\FileManagerState.class
+module-info.class
+com\example\shellfx\models\Disk.class
+com\example\shellfx\models\FileManager\State\Impl\CopyState.class
+com\example\shellfx\models\FileManager\FileManager.class
+com\example\shellfx\models\FileManager\State\Impl\MoveState.class
+com\example\shellfx\Main.class
+com\example\shellfx\models\User.class

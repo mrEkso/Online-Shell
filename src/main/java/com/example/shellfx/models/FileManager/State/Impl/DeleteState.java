@@ -7,7 +7,7 @@ import org.apache.commons.io.FileUtils;
 import java.io.File;
 import java.io.IOException;
 
-public class DeleteState implements FileManagerState {
+public class DeleteState extends FileManagerState {
 
     @Override
     public void perform(FileManager ctx) {
@@ -20,6 +20,6 @@ public class DeleteState implements FileManagerState {
 
     private void delete(File source) throws IOException {
         if (source.isDirectory()) FileUtils.deleteDirectory(source);
-        if (source.isFile()) FileUtils.delete(source);
+        else if (source.isFile()) FileUtils.delete(source);
     }
 }

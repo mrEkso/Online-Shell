@@ -1,5 +1,6 @@
 package com.example.shellfx;
 
+import com.example.shellfx.models.User;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -20,5 +21,12 @@ public class Main extends javafx.application.Application {
         stage.setTitle("Shell");
         stage.setScene(scene);
         stage.show();
+
+        User user1 = new User("Davyd", "david@gmail.com", "123123");
+        User user2 = user1.clone();
+
+        System.out.println(user1);
+        System.out.println(user2);
+        System.out.println(user1 == user2);
     }
 }

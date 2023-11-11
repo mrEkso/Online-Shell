@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Shell" />
+        <module name="ShellFX" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Shell" target="17" />
+      <module name="ShellFX" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

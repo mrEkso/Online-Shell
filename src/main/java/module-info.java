@@ -6,6 +6,6 @@ module com.example.shellfx {
     requires org.kordamp.bootstrapfx.core;
     requires org.apache.commons.io;
 
-    opens com.example.shellfx to javafx.fxml;
-    exports com.example.shellfx;
+    opens com.example.shell to javafx.fxml;
+    exports com.example.shell;
 }

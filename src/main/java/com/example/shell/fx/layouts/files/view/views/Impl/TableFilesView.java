@@ -19,7 +19,7 @@ public class TableFilesView implements FilesView {
     }
 
     @Override
-    public void display(List<File> files) {
+    public void addFiles(List<File> files) {
         // Очищуємо дочірні елементи поточного вузла (VBox)
         node.getChildren().clear();
 
@@ -63,5 +63,9 @@ public class TableFilesView implements FilesView {
 
         fileBlock.getChildren().add(label); // Додаємо напис в блок
         return fileBlock;  // Повертаємо створений блок
+    }
+
+    public String getName() {
+        return "Table view";
     }
 }

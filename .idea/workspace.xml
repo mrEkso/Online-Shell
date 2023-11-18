@@ -5,58 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ad25a5c-1a5f-44ea-8a3f-147f3fd1647f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Shell.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_bootstrapfx_bootstrapfx_core_0_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_core_12_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_javafx_12_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_17_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_17_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_17_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_17_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_17_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_17_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_17_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShellFX.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shellfx/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shell/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shellfx/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shell/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shellfx/models/Disk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shell/models/Disk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shellfx/models/FileManager/FileManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shellfx/models/FileManager/State/FileManagerState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shellfx/models/FileManager/State/Impl/CopyState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shell/models/FileManager/State/States/CopyState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shellfx/models/FileManager/State/Impl/DeleteState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shell/models/FileManager/State/States/DeleteState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shellfx/models/FileManager/State/Impl/MoveState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shell/models/FileManager/State/States/MoveState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shellfx/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shell/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/shellfx/shell.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/shell/shell.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shellfx/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shellfx/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shellfx/models/Disk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shellfx/models/FileManager/FileManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shellfx/models/FileManager/State/FileManagerState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shellfx/models/FileManager/State/Impl/CopyState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shellfx/models/FileManager/State/Impl/DeleteState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shellfx/models/FileManager/State/Impl/MoveState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shellfx/models/User/Prototype.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shellfx/models/User/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shellfx/shell.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shell/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shell/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/view/FilesViewFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/view/views/FilesViewFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/view/views/Impl/FilesView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/view/views/Impl/FilesView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/view/views/Impl/ListFilesView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/view/views/Impl/ListFilesView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/view/views/Impl/TableFilesView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/view/views/Impl/TableFilesView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/view/views/ListFilesViewFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/view/views/ListFilesViewFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/view/views/TableFilesViewFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/view/views/TableFilesViewFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/models/Disk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shell/models/Disk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/models/FileManager/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shell/models/FileManager/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shell/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/view/FilesViewFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/view/views/Impl/ListFilesView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/view/views/Impl/ListFilesView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/view/views/Impl/TableFilesView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/view/views/Impl/TableFilesView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/view/views/Impl/View.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/view/views/ListFilesViewFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/view/views/ListFilesViewFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/view/views/TableFilesViewFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/view/views/TableFilesViewFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/models/Disk.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shell/models/Disk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/models/FileManager/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shell/models/FileManager/FileManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/models/FileManager/State/States/CopyState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shell/models/FileManager/State/States/CopyState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/models/FileManager/State/States/DeleteState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shell/models/FileManager/State/States/DeleteState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/models/FileManager/State/States/MoveState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shell/models/FileManager/State/States/MoveState.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,18 +41,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lab7" />
+        <entry key="$PROJECT_DIR$" value="Lab6" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-17.0.2/lib/src.zip!/java.base/java/io/File.java" root0="SKIP_INSPECTION" />
@@ -104,7 +84,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/ТРПЗ/factory method by Mihalich" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/звіти" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
@@ -118,6 +98,7 @@
       <recent name="C:\Users\Main\IdeaProjects\Shell\звіти" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.shell.fx.layouts.files.view.views.menus.Impl" />
       <recent name="com.example.shell.fx.layouts.files.view.views" />
       <recent name="com.example.shell.fx.layouts.View" />
       <recent name="com.example.shell.fx" />
@@ -166,7 +147,9 @@
       <workItem from="1699234561929" duration="483000" />
       <workItem from="1699654417558" duration="560000" />
       <workItem from="1699655138064" duration="3401000" />
-      <workItem from="1699658943676" duration="9184000" />
+      <workItem from="1699658943676" duration="9319000" />
+      <workItem from="1700327118601" duration="442000" />
+      <workItem from="1700331471398" duration="17802000" />
     </task>
     <servers />
   </component>
@@ -183,5 +166,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.example.shell.fx.layouts.files.view.views.Impl.TableFilesView" memberName="filesPerRow" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

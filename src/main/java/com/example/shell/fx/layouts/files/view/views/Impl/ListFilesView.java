@@ -15,10 +15,14 @@ public class ListFilesView implements FilesView {
     }
 
     @Override
-    public void display(List<File> files) {
+    public void addFiles(List<File> files) {
         node.getItems().clear();
         for (File file : files) {
             node.getItems().add(file.getName());
         }
+    }
+
+    public String getName() {
+        return "List view";
     }
 }

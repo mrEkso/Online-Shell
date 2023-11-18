@@ -8,6 +8,10 @@ public class Disk extends File {
         super(pathname);
     }
 
+    public Disk(File disk) {
+        super(disk.getPath());
+    }
+
     public String getName() {
         return super.toString().substring(0, 1);
     }

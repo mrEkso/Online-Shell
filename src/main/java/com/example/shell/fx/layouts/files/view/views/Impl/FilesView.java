@@ -8,5 +8,7 @@ import java.util.List;
 public interface FilesView {
     Node getNode();
 
-    void display(List<File> files);
+    void addFiles(List<File> files);
+
+    String getName();
 }

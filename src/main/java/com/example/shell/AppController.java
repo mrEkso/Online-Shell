@@ -9,7 +9,7 @@ import javafx.stage.DirectoryChooser;
 
 import java.io.File;
 
-public class Controller {
+public class AppController {
     private final FileManager fileManager = new FileManager();
 
     @FXML
@@ -24,8 +24,8 @@ public class Controller {
     private void selectDriveButtonClicked() {
         DirectoryChooser directoryChooser = new DirectoryChooser();
         directoryChooser.setTitle("Оберіть диск");
-        Disk selectedDrive = new Disk(directoryChooser.showDialog(null).getPath());
-        fileManager.setCurrentDisk(selectedDrive);
+        Disk selectedDrive = new Disk(directoryChooser.showDialog(null));
+        FileManager.setCurrentDisk(selectedDrive);
     }
 
     @FXML
@@ -34,7 +34,7 @@ public class Controller {
         directoryChooser.setTitle("Оберіть пункт призначення");
         File selectedDestinationPath = directoryChooser.showDialog(null);
         if (selectedDestinationPath != null) {
-            fileManager.setDestination(selectedDestinationPath);
+            FileManager.setDestination(selectedDestinationPath);
         }
     }
 

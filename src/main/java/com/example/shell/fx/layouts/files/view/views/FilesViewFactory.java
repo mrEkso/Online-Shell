@@ -1,4 +1,4 @@
-package com.example.shell.fx.layouts.files.view;
+package com.example.shell.fx.layouts.files.view.views;
 
 import com.example.shell.fx.layouts.files.view.views.Impl.FilesView;
 

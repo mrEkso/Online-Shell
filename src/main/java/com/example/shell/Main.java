@@ -1,21 +1,25 @@
 package com.example.shell;
 
-import com.example.shell.fx.layouts.files.view.views.FilesViewTab;
-import com.example.shell.fx.layouts.files.view.views.FilesViewFactory;
-import com.example.shell.fx.layouts.files.view.comboBoxes.Impl.ViewComboBoxTemplate;
-import com.example.shell.fx.layouts.files.view.views.Impl.FilesView;
-import com.example.shell.fx.layouts.files.view.views.ListFilesViewFactory;
-import com.example.shell.fx.layouts.files.view.views.TableFilesViewFactory;
-import com.example.shell.fx.layouts.files.view.comboBoxes.ComboBoxTemplate;
-import com.example.shell.fx.layouts.files.view.comboBoxes.Impl.DiskComboBoxTemplate;
-import com.example.shell.fx.layouts.files.view.views.Impl.FilesViewType;
+import com.example.shell.fx.layouts.files.filters.FileFilterExpression;
+import com.example.shell.fx.layouts.files.filters.Impl.ExtensionFilterExpression;
+import com.example.shell.fx.layouts.files.filters.Impl.FileFilter;
+import com.example.shell.fx.layouts.files.filters.Impl.NameFilterExpression;
+import com.example.shell.fx.layouts.files.views.FilesViewTab;
+import com.example.shell.fx.layouts.files.views.FilesViewFactory;
+import com.example.shell.fx.layouts.files.comboBoxes.Impl.ViewComboBoxTemplate;
+import com.example.shell.fx.layouts.files.views.Impl.FilesView;
+import com.example.shell.fx.layouts.files.views.ListFilesViewFactory;
+import com.example.shell.fx.layouts.files.views.TableFilesViewFactory;
+import com.example.shell.fx.layouts.files.comboBoxes.ComboBoxTemplate;
+import com.example.shell.fx.layouts.files.comboBoxes.Impl.DiskComboBoxTemplate;
+import com.example.shell.fx.layouts.files.views.Impl.FilesViewType;
 import com.example.shell.models.Disk;
 import com.example.shell.models.User;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import org.kordamp.bootstrapfx.BootstrapFX;
 
@@ -45,7 +49,7 @@ public class Main extends javafx.application.Application {
         user2.setName("Vitaliy");
         user2.setEmail("vitaliy@gmail.com");
 
-        // Test Template and Factory method
+        // Test Template and Factory method patterns
         List<File> testFiles = Arrays.asList(
                 new File("Folder1"),
                 new File("Folder2"),
@@ -102,11 +106,45 @@ public class Main extends javafx.application.Application {
         filesViewFactory = new ListFilesViewFactory();
         FilesView listView = filesViewFactory.create();
 
-        FilesViewTab.setFiles(testFiles);
         FilesViewTab.setFilesView(listView);
+        FilesViewTab.setFiles(testFiles);
 
         pane.setCenter(FilesViewTab.getFilesView().getNode());
         viewTab.setContent(pane);
+
+        // Test Interpreter pattern
+        TextField extensionTextField = new TextField();
+        extensionTextField.setPromptText("Enter Extension");
+
+        // Кнопка для застосування фільтрації
+        Button applyFilterButton = new Button("Apply Extension Filter");
+        applyFilterButton.setOnAction(event -> {
+            String extension = extensionTextField.getText();
+            if (!extension.isEmpty()) {
+                FileFilterExpression extensionFilter = new ExtensionFilterExpression(extension);
+                FileFilter.applyFilter((ListView<String>) FilesViewTab.getFilesView().getNode(), testFiles, extensionFilter);
+            } else {
+                FilesViewTab.setFiles(testFiles);
+            }
+        });
+
+        TextField nameTextField = new TextField();
+        nameTextField.setPromptText("Enter File Name");
+
+        // Кнопка для застосування фільтрації за іменем файлу
+        Button applyNameFilterButton = new Button("Apply Name Filter");
+        applyNameFilterButton.setOnAction(event -> {
+            String targetName = nameTextField.getText();
+            if (!targetName.isEmpty()) {
+                FileFilterExpression nameFilter = new NameFilterExpression(targetName);
+                FileFilter.applyFilter((ListView<String>) FilesViewTab.getFilesView().getNode(), testFiles, nameFilter);
+            } else {
+                FilesViewTab.setFiles(testFiles);
+            }
+        });
+
+        VBox root = new VBox(extensionTextField, applyFilterButton, nameTextField, applyNameFilterButton, FilesViewTab.getFilesView().getNode());
+        viewTab.setContent(root);
 
         TabPane tabPane = new TabPane(diskTab, viewTab);
         Scene testScene = new Scene(tabPane, 640, 480);

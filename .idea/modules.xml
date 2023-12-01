@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ShellFX.iml" filepath="$PROJECT_DIR$/ShellFX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Shell.iml" filepath="$PROJECT_DIR$/.idea/Shell.iml" />
     </modules>
   </component>
 </project>

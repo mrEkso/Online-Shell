@@ -20,6 +20,7 @@ public class DeleteState extends FileManagerState {
     }
 
     private void delete(File source) throws IOException {
+        if (source == null) return;
         if (source.isDirectory()) FileUtils.deleteDirectory(source);
         else if (source.isFile()) FileUtils.delete(source);
     }

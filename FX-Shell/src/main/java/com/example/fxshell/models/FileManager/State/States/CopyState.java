@@ -19,12 +19,14 @@ public class CopyState extends FileManagerState {
     }
 
     private void copy(File source, File destination) throws IOException {
+        if (source == null) return;
+        File destinationFile = new File(destination, source.getName());
         // якщо папка була створена
-        if (!destination.exists() && destination.mkdirs()) {
+        if (source.exists() && !destinationFile.exists()) {
             // якщо файл - директорія, то копіюємо як директорію
-            if (source.isDirectory()) FileUtils.copyDirectory(source, destination);
+            if (source.isDirectory()) FileUtils.copyDirectory(source, destinationFile);
                 // якщо файл - просто файл, то копіюємо як файл
-            else if (source.isFile()) FileUtils.copyFile(source, destination);
+            else if (source.isFile()) FileUtils.copyFile(source, destinationFile);
         }
     }
 }

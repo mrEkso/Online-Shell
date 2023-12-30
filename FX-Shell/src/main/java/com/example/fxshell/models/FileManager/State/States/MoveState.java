@@ -19,9 +19,11 @@ public class MoveState extends FileManagerState {
     }
 
     private void move(File source, File destination) throws IOException {
-        if (source.exists() && !destination.exists()) {
-            if (source.isDirectory()) FileUtils.moveDirectory(source, destination);
-            else if (source.isFile()) FileUtils.moveFile(source, destination);
+        if (source == null) return;
+        File destinationFile = new File(destination, source.getName());
+        if (source.exists() && !destinationFile.exists()) {
+            if (source.isDirectory()) FileUtils.moveDirectory(source, destinationFile);
+            else if (source.isFile()) FileUtils.moveFile(source, destinationFile);
         }
     }
 }

@@ -1,6 +1,7 @@
 package com.example.fxshell.app.panes;
 
 import com.example.fxshell.app.menus.FilePaneMenuManager;
+import com.example.fxshell.app.panes.FilesPane.FilesPane;
 import com.example.fxshell.http.controllers.HttpController;
 import javafx.scene.control.SplitPane;
 
@@ -19,7 +20,7 @@ public class ContentPane {
 
     private void initPanes() {
         leftPane = new FilesPane(httpController);
-        rightPane = new FilesPane(httpController);
+        rightPane = leftPane.clone();
         new FilePaneMenuManager(leftPane, rightPane).initPanes();
     }
 

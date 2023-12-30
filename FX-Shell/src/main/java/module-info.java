@@ -18,4 +18,6 @@ module com.example.fxshell {
     opens com.example.fxshell.models to com.google.gson;
     exports com.example.fxshell.http;
     opens com.example.fxshell.http to javafx.fxml;
+    opens com.example.fxshell.app.panes to com.google.gson;
+    opens com.example.fxshell.app.panes.FilesPane to com.google.gson;
 }

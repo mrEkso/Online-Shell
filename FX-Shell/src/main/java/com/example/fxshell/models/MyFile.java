@@ -1,7 +1,7 @@
 package com.example.fxshell.models;
 
 public class MyFile {
-    private final String id;
+    private String id;
     private final String name;
     private final String type;
     private final Long size;

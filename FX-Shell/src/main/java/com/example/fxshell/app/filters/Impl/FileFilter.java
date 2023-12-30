@@ -1,19 +1,16 @@
 package com.example.fxshell.app.filters.Impl;
 
 import com.example.fxshell.app.filters.FileFilterExpression;
-import javafx.scene.control.ListView;
+import com.example.fxshell.app.views.FilesView;
+
 
 import java.io.File;
-import java.util.List;
+import java.util.Arrays;
 
 public class FileFilter {
-    public static void applyFilter(ListView<String> fileListView, List<File> files, FileFilterExpression filterExpression) {
-        fileListView.getItems().clear();
-
-        for (File file : files) {
-            if (filterExpression.interpret(file)) {
-                fileListView.getItems().add(file.getName());
-            }
-        }
+    public static void applyFilter(FilesView<?> filesView, File[] files, FileFilterExpression filterExpression) {
+        filesView.setFiles(Arrays.stream(files)
+                .filter(filterExpression::interpret)
+                .toArray(File[]::new));
     }
 }

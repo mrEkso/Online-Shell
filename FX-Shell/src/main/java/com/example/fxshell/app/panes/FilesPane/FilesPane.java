@@ -1,6 +1,10 @@
-package com.example.fxshell.app.panes;
+package com.example.fxshell.app.panes.FilesPane;
 
 import com.example.fxshell.app.alerts.AlertUtils;
+import com.example.fxshell.app.filters.FileFilterExpression;
+import com.example.fxshell.app.filters.Impl.ExtensionFilterExpression;
+import com.example.fxshell.app.filters.Impl.FileFilter;
+import com.example.fxshell.app.filters.Impl.NameFilterExpression;
 import com.example.fxshell.app.history.History;
 import com.example.fxshell.app.comboBoxes.ComboBoxTemplate;
 import com.example.fxshell.app.comboBoxes.Impl.DiskComboBoxTemplate;
@@ -16,6 +20,7 @@ import javafx.event.ActionEvent;
 import javafx.scene.Node;
 import javafx.scene.control.*;
 import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
 import javafx.scene.input.MouseButton;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
@@ -28,7 +33,7 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
-public class FilesPane extends BorderPane {
+public class FilesPane extends BorderPane implements Prototype<FilesPane> {
     private final History history;
     private FilesView<?> filesView;
     private final Button backButton;
@@ -37,6 +42,10 @@ public class FilesPane extends BorderPane {
     private final ComboBox<String> diskComboBox;
     private final CheckBox showHiddenFilesCheckbox;
     private final Button uploadToCloudButton;
+    TextField extensionTextField;
+    Button applyExtensionFilterButton;
+    TextField nameTextField;
+    Button applyNameFilterButton;
     private FileContextMenu fileContextMenu;
     private final HttpController httpController;
 
@@ -48,6 +57,10 @@ public class FilesPane extends BorderPane {
         refreshButton = new Button("Оновити");
         uploadToCloudButton = new Button("Завантажити файл в хмару");
         showHiddenFilesCheckbox = new CheckBox("Hidden Files");
+        extensionTextField = new TextField();
+        applyExtensionFilterButton = new Button("Пошук по розширенню");
+        nameTextField = new TextField();
+        applyNameFilterButton = new Button("Пошук по імені");
         this.httpController = httpController;
         configure();
     }
@@ -62,8 +75,9 @@ public class FilesPane extends BorderPane {
     }
 
     private HBox createTopPanel() {
-        return new HBox(10, new HBox(backButton, refreshButton, viewComboBox),
-                new VBox(diskComboBox, showHiddenFilesCheckbox, uploadToCloudButton));
+        return new HBox(10, new VBox(new HBox(backButton, refreshButton, viewComboBox),
+                new VBox(diskComboBox, showHiddenFilesCheckbox, uploadToCloudButton)),
+                new VBox(extensionTextField, applyExtensionFilterButton, nameTextField, applyNameFilterButton));
     }
 
     private void initFilesView() {
@@ -94,6 +108,8 @@ public class FilesPane extends BorderPane {
         diskComboBox.getSelectionModel().selectedItemProperty().addListener(this::changeDisk);
         showHiddenFilesCheckbox.setOnAction(e -> updateFilesList(history.getFilesCurrentDirectory()));
         uploadToCloudButton.setOnAction(e -> handleUploadButton());
+        applyExtensionFilterButton.setOnAction(event -> handleApplyExtensionFilterButton());
+        applyNameFilterButton.setOnAction(event -> handleApplyNameFilterButton());
     }
 
     private void handleFileClick(MouseEvent event) {
@@ -133,6 +149,26 @@ public class FilesPane extends BorderPane {
             AlertUtils.showSuccessAlert(response);
         } else {
             AlertUtils.showErrorAlert(response);
+        }
+    }
+
+    private void handleApplyExtensionFilterButton() {
+        String extension = extensionTextField.getText();
+        if (!extension.isEmpty()) {
+            FileFilterExpression extensionFilter = new ExtensionFilterExpression(extension);
+            FileFilter.applyFilter(filesView, history.getFilesCurrentDirectory(), extensionFilter);
+        } else {
+            refreshFilesList();
+        }
+    }
+
+    private void handleApplyNameFilterButton() {
+        String targetName = nameTextField.getText();
+        if (!targetName.isEmpty()) {
+            FileFilterExpression nameFilter = new NameFilterExpression(targetName);
+            FileFilter.applyFilter(filesView, history.getFilesCurrentDirectory(), nameFilter);
+        } else {
+            refreshFilesList();
         }
     }
 
@@ -198,4 +234,8 @@ public class FilesPane extends BorderPane {
         this.fileContextMenu = fileContextMenu;
     }
 
+    @Override
+    public FilesPane clone() {
+        return new FilesPane(httpController);
+    }
 }

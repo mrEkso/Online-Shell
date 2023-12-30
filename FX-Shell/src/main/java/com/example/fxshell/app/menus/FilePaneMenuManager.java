@@ -1,6 +1,6 @@
 package com.example.fxshell.app.menus;
 
-import com.example.fxshell.app.panes.FilesPane;
+import com.example.fxshell.app.panes.FilesPane.FilesPane;
 import com.example.fxshell.models.FileManager.FileManagerOperations;
 import com.example.fxshell.models.FileManager.FileManagerOperationsImpl;
 

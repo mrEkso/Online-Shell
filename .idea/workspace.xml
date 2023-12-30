@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0ad25a5c-1a5f-44ea-8a3f-147f3fd1647f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_bootstrapfx_bootstrapfx_core_0_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/FX-Shell.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/FX-Shell.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/app/filters/Impl/FileFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/app/filters/Impl/FileFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/app/panes/FilesPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/app/panes/FilesPane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/ShellUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/ShellUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/dialogs/AuthDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/dialogs/AuthDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/dialogs/MyFilesDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/dialogs/MyFilesDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/filters/FileFilterExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/filters/FileFilterExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/filters/Impl/ExtensionFilterExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/filters/Impl/ExtensionFilterExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/filters/Impl/FileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/filters/Impl/FileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/filters/Impl/NameFilterExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/filters/Impl/NameFilterExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/menus/FilePaneMenuManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/menus/FilePaneMenuManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/panels/TopPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/panels/TopPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/panes/FilesPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/panes/FilesPane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/views/Impl/ListFilesView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/views/Impl/ListFilesView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/views/Impl/ListFilesView.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/views/Impl/ListFilesView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/views/Impl/TableFilesView.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/views/Impl/TableFilesView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/http/controllers/BaseHttpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/http/controllers/BaseHttpController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/http/controllers/HttpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/http/controllers/HttpController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/http/services/HttpServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/http/services/HttpServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/models/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/module-info.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Lab8" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-17.0.2/lib/src.zip!/java.base/java/io/File.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2XjLCTfaAswf30Oo4JS913T33pL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15527344" />
+    <property name="project.structure.side.proportion" value="0.5023148" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Main\IdeaProjects\Shell" />
+      <recent name="C:\Users\Main\IdeaProjects\Shell\Online-Shell" />
+      <recent name="C:\Users\Main\IdeaProjects\Shell\Online-Shell\src\main\java\com\example\onlineshell" />
+      <recent name="C:\Users\Main\IdeaProjects\Shell\FX-Shell\src\main\resources\com\example\fxshell" />
+      <recent name="C:\Users\Main\IdeaProjects\Shell\FX-Shell\src\main\java\com\example\fxshell" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Main\IdeaProjects\Shell\звіти" />
+      <recent name="C:\Users\Main\IdeaProjects\Shell\FX-Shell" />
+      <recent name="C:\Users\Main\IdeaProjects\Shell\FX-Shell\src" />
+      <recent name="C:\Users\Main\IdeaProjects\Shell" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.fxshell" />
+      <recent name="com.example.shell.fx.layouts.files.filters" />
+      <recent name="com.example.shell.fx.layouts.files.view.views.menus.Impl" />
+      <recent name="com.example.shell.fx.layouts.files.view.views" />
+      <recent name="com.example.shell.fx.layouts.View" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Online-shell">
+    <configuration name="FXShell" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.fxshell.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.fxshell.controllers.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Online-Shell (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Online-Shell" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Online-Shell" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Online-Shell" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Online-shell" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Online-Shell" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.onlineshell.OnlineShellApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndTriggerFile" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.FXShell" />
+      <item itemvalue="JUnit.All in Online-Shell" />
+      <item itemvalue="JUnit.All in Online-Shell (1)" />
+      <item itemvalue="Spring Boot.Online-shell" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FXShell" />
+        <item itemvalue="JUnit.All in Online-Shell (1)" />
+        <item itemvalue="JUnit.All in Online-Shell" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ad25a5c-1a5f-44ea-8a3f-147f3fd1647f" name="Changes" comment="" />
+      <created>1699137420149</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699137420149</updated>
+      <workItem from="1699137428019" duration="3451000" />
+      <workItem from="1699234561929" duration="483000" />
+      <workItem from="1699654417558" duration="560000" />
+      <workItem from="1699655138064" duration="3401000" />
+      <workItem from="1699658943676" duration="9319000" />
+      <workItem from="1700327118601" duration="442000" />
+      <workItem from="1700331471398" duration="18126000" />
+      <workItem from="1700494596851" duration="331000" />
+      <workItem from="1700754475602" duration="112000" />
+      <workItem from="1700758525846" duration="4180000" />
+      <workItem from="1700853393585" duration="150000" />
+      <workItem from="1700853577217" duration="15000" />
+      <workItem from="1700855750613" duration="132000" />
+      <workItem from="1700926019250" duration="182000" />
+      <workItem from="1701287801010" duration="1134000" />
+      <workItem from="1701333700812" duration="959000" />
+      <workItem from="1701334676815" duration="32000" />
+      <workItem from="1701334712677" duration="16000" />
+      <workItem from="1701334740925" duration="13000" />
+      <workItem from="1701334758080" duration="10661000" />
+      <workItem from="1701349671360" duration="3914000" />
+      <workItem from="1701368076474" duration="896000" />
+      <workItem from="1701369094550" duration="360000" />
+      <workItem from="1701369539963" duration="2974000" />
+      <workItem from="1701372638608" duration="98000" />
+      <workItem from="1701420587448" duration="2346000" />
+      <workItem from="1701422978747" duration="112000" />
+      <workItem from="1701423123396" duration="15000" />
+      <workItem from="1701423148104" duration="215000" />
+      <workItem from="1701423372598" duration="5000" />
+      <workItem from="1701460717085" duration="3238000" />
+      <workItem from="1701698914434" duration="146000" />
+      <workItem from="1701699082265" duration="26000" />
+      <workItem from="1701699198913" duration="61000" />
+      <workItem from="1703705890344" duration="547000" />
+      <workItem from="1703896266099" duration="2181000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Online-Shell" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FX-Shell/src/src/main/java/com/example/shell/Main.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.example.shell.fx.layouts.files.view.views.Impl.TableFilesView" memberName="filesPerRow" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

@@ -2,40 +2,38 @@ package com.example.onlineshell.services;
 
 import com.example.onlineshell.models.User;
 import com.example.onlineshell.repository.factory.FactoryRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.example.onlineshell.security.jwt.JwtTokenProvider;
+import lombok.RequiredArgsConstructor;
+import org.springframework.context.annotation.Lazy;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 @Service
+@RequiredArgsConstructor(onConstructor_ = @Lazy)
 public class UserServiceImpl implements UserService {
     private final FactoryRepository fr;
-    private final BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
-
-    @Autowired
-    public UserServiceImpl(FactoryRepository factoryRepository) {
-        this.fr = factoryRepository;
-    }
+    private final JwtTokenProvider jwtTokenProvider;
 
     @Override
-    public User getByLogin(String login) {
-        return fr.getUserRepository().getByLogin(login);
-    }
-
-    @Override
-    public boolean exists(String login) {
-        return getByLogin(login) != null;
+    public User loadUserByUsername(String email) throws UsernameNotFoundException {
+        return fr.getUserRepository().findByEmail(email);
     }
 
     @Override
     public boolean checkPassword(User user, String password) {
-        return passwordEncoder.matches(password, user.getPassword());
+        return !encoder().matches(password, loadUserByUsername(user.getEmail()).getPassword());
     }
 
     @Override
-    public void create(User user) {
-        fr.getUserRepository().save(new User(
-                user.getLogin(),
-                passwordEncoder.encode(user.getPassword())
-        ));
+    public User register(User user) {
+        user.setPassword(encoder().encode(user.getPassword()));
+        user.setToken(jwtTokenProvider.createToken(user));
+        return fr.getUserRepository().save(user);
+    }
+
+    public PasswordEncoder encoder() {
+        return new BCryptPasswordEncoder();
     }
 }

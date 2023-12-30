@@ -11,12 +11,11 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.util.Map;
 import java.util.UUID;
 
-import com.example.fxshell.Utils;
+import com.example.fxshell.http.Utils;
 import com.example.fxshell.http.services.HttpService;
 import com.example.fxshell.http.services.HttpServiceImpl;
 import com.example.fxshell.models.MyFile;

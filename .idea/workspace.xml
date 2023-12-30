@@ -5,139 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ad25a5c-1a5f-44ea-8a3f-147f3fd1647f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FX-Shell/FX-Shell.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/controllers/http/HttpController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/files/views/Impl/FilesViewType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/files/views/ListFilesViewFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/files/views/TableFilesViewFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/models/FileManager/State/FileManagerState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/controllers/AppController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/controllers/http/HttpController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/files/comboBoxes/Impl/ViewComboBoxTemplate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/files/filters/Expression.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/files/filters/FileFilterExpression.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/files/filters/Impl/FileFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/files/views/FilesViewFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/files/views/FilesViewTab.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/files/views/Impl/FilesView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/files/views/Impl/FilesViewType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/files/views/ListFilesViewFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/files/views/TableFilesViewFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/models/FileManager/State/FileManagerState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/models/FileManager/State/States/CopyState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/models/FileManager/State/States/DeleteState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/models/FileManager/State/States/MoveState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FX-Shell/target/classes/module-info.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Online-Shell/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Online-Shell/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Online-Shell/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Online-Shell/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Online-Shell/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Online-Shell/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Online-Shell/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Online-Shell/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/OnlineShellApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/controllers/AuthorizationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/exceptions/ErrorHandlingControllerAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/repository/factory/FactoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/repository/factory/FactoryRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/services/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Online-Shell/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Online-Shell/src/test/java/com/example/onlineshell/OnlineShellApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/j2ee.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/звіти/ТРПЗ_ЛР9_Окаянченко_Давид_Олександрович_ІА-13.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_bootstrapfx_bootstrapfx_core_0_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_core_12_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_javafx_12_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_17_0_1.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_4_0_b180830_0359.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_6_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_6_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_6_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Shell.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Shell.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_19_0_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_17_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_19_0_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_11_0_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_17_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_17_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_11_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_19_0_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_17_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_19_0_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_11_0_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_17_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_11_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_19_0_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_19_0_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_11_0_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_17_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_17_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_11_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_19_0_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_17_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_19_0_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_11_0_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_17_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/controllers/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/comboBoxes/ComboBoxTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/files/comboBoxes/ComboBoxTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/comboBoxes/Impl/DiskComboBoxTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/files/comboBoxes/Impl/DiskComboBoxTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/comboBoxes/Impl/ViewComboBoxTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/files/comboBoxes/Impl/ViewComboBoxTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/filters/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/files/filters/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/filters/FileFilterExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/files/filters/FileFilterExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/filters/Impl/ExtensionFilterExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/files/filters/Impl/ExtensionFilterExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/filters/Impl/FileFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/files/filters/Impl/FileFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/filters/Impl/NameFilterExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/files/filters/Impl/NameFilterExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/views/FilesViewFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/files/views/FilesViewFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/views/FilesViewTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/files/views/FilesViewTab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/views/Impl/FilesView.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/files/views/Impl/FilesView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/views/Impl/FilesViewType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/views/Impl/ListFilesView.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/files/views/Impl/ListFilesView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/views/Impl/TableFilesView.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/files/views/Impl/TableFilesView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/views/ListFilesViewFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/fx/layouts/files/views/TableFilesViewFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/models/Disk.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/models/Disk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/models/FileManager/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/models/FileManager/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/models/FileManager/State/FileManagerState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/models/FileManager/State/States/CopyState.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/models/FileManager/State/States/CopyState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/models/FileManager/State/States/DeleteState.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/models/FileManager/State/States/DeleteState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/models/FileManager/State/States/MoveState.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/models/FileManager/State/States/MoveState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shell/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/shell/shell.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/resources/com/example/fxshell/shell.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ShellFX-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/AppController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/comboBoxes/ComboBoxTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/files/comboBoxes/ComboBoxTemplate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/comboBoxes/Impl/DiskComboBoxTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/files/comboBoxes/Impl/DiskComboBoxTemplate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/comboBoxes/Impl/ViewComboBoxTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/filters/Expression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/filters/FileFilterExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/filters/Impl/ExtensionFilterExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/files/filters/Impl/ExtensionFilterExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/filters/Impl/FileFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/filters/Impl/NameFilterExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/files/filters/Impl/NameFilterExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/views/FilesViewFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/views/FilesViewTab.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/views/Impl/FilesView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/views/Impl/FilesViewType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/views/Impl/ListFilesView.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/files/views/Impl/ListFilesView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/views/Impl/TableFilesView.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/files/views/Impl/TableFilesView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/views/ListFilesViewFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/fx/layouts/files/views/TableFilesViewFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/models/Disk.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/models/Disk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/models/FileManager/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/models/FileManager/FileManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/models/FileManager/State/FileManagerState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/models/FileManager/State/States/CopyState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/models/FileManager/State/States/DeleteState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/models/FileManager/State/States/MoveState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/models/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shell/shell.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/shell.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/FX-Shell.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/FX-Shell.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/http/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/http/controllers/BaseHttpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/http/controllers/BaseHttpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/http/controllers/HttpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/com/example/fxshell/http/controllers/HttpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/ShellUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/ShellUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/dialogs/AuthDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/dialogs/AuthDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/dialogs/MyFilesDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/dialogs/MyFilesDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/filters/FileFilterExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/filters/FileFilterExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/filters/Impl/ExtensionFilterExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/filters/Impl/ExtensionFilterExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/filters/Impl/NameFilterExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/filters/Impl/NameFilterExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/menus/FilePaneMenuManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/menus/FilePaneMenuManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/panels/TopPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/panels/TopPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/panes/FilesPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/panes/FilesPane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/views/Impl/ListFilesView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/views/Impl/ListFilesView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/views/Impl/ListFilesView.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/views/Impl/ListFilesView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/views/Impl/TableFilesView.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/app/views/Impl/TableFilesView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/http/controllers/BaseHttpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/http/controllers/BaseHttpController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/http/controllers/HttpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/http/controllers/HttpController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/http/services/HttpServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/http/services/HttpServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/com/example/fxshell/models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX-Shell/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/FX-Shell/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online-Shell/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online-Shell/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Online-Shell/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/controllers/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/controllers/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/repository/factory/FactoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/repository/factory/FactoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/repository/factory/FactoryRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/repository/factory/FactoryRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Online-Shell/src/main/java/com/example/onlineshell/services/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online-Shell/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Online-Shell/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/demo.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,27 +149,27 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="jdk.selected.JAVA_MODULE" value="21" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Online-Shell" />
+    <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.5023148" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Main\IdeaProjects\Shell" />
       <recent name="C:\Users\Main\IdeaProjects\Shell\Online-Shell" />
       <recent name="C:\Users\Main\IdeaProjects\Shell\Online-Shell\src\main\java\com\example\onlineshell" />
       <recent name="C:\Users\Main\IdeaProjects\Shell\FX-Shell\src\main\resources\com\example\fxshell" />
       <recent name="C:\Users\Main\IdeaProjects\Shell\FX-Shell\src\main\java\com\example\fxshell" />
-      <recent name="C:\Users\Main\IdeaProjects\Shell\звіти" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Main\IdeaProjects\Shell\звіти" />
       <recent name="C:\Users\Main\IdeaProjects\Shell\FX-Shell" />
       <recent name="C:\Users\Main\IdeaProjects\Shell\FX-Shell\src" />
       <recent name="C:\Users\Main\IdeaProjects\Shell" />
-      <recent name="C:\Users\Main\IdeaProjects\Shell\звіти" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.fxshell" />
@@ -250,7 +182,6 @@
   <component name="RunManager" selected="Spring Boot.Online-shell">
     <configuration name="FXShell" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.example.fxshell.Main" />
-      <module name="FX-Shell" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.fxshell.controllers.http.*" />
@@ -358,7 +289,12 @@
       <workItem from="1701423123396" duration="15000" />
       <workItem from="1701423148104" duration="215000" />
       <workItem from="1701423372598" duration="5000" />
-      <workItem from="1701460717085" duration="2799000" />
+      <workItem from="1701460717085" duration="3238000" />
+      <workItem from="1701698914434" duration="146000" />
+      <workItem from="1701699082265" duration="26000" />
+      <workItem from="1701699198913" duration="61000" />
+      <workItem from="1703705890344" duration="547000" />
+      <workItem from="1703896266099" duration="1532000" />
     </task>
     <servers />
   </component>

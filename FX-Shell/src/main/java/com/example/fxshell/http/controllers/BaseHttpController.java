@@ -1,6 +1,6 @@
 package com.example.fxshell.http.controllers;
 
-import com.example.fxshell.Utils;
+import com.example.fxshell.http.Utils;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 

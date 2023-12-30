@@ -3,7 +3,6 @@ module com.example.fxshell {
     requires javafx.fxml;
 
     requires java.desktop;
-    requires org.kordamp.bootstrapfx.core;
     requires org.apache.commons.io;
     requires java.net.http;
     requires com.google.gson;
@@ -17,4 +16,6 @@ module com.example.fxshell {
     exports com.example.fxshell.http.controllers;
     opens com.example.fxshell.http.controllers to javafx.fxml;
     opens com.example.fxshell.models to com.google.gson;
+    exports com.example.fxshell.http;
+    opens com.example.fxshell.http to javafx.fxml;
 }
